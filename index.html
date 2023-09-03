@@ -3,18 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Survey Form</title>
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description"><b>Project Description: Modern Responsive Web Curriculum - Building an Immersive Survey Form</b><br><br> The central objective of this project is to simulate a real-world scenario, replicating the challenges and triumphs one might encounter within a professional Frontend Web Development role. By navigating through the intricacies of responsive design, candidates will grapple with the nuanced art of ensuring seamless functionality across a multitude of devices, irrespective of screen size or orientation. This project serves as a litmus test for adaptability, as candidates learn to imbue their creations with the flexibility demanded by the modern digital landscape.</p><br><br>
-    <form id="survey-form">
-        <label for="name">Full name:</label><br>
-        <input type="text" id="name" name="name" value="John Doe" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" value="johndoe@email.com" required><br>
-        <label for="number">Age:</label><br>
-        <input type="number" id="number" name="number" min="18" max="100">
-      </form> 
+  <h1 id="title">Survey Form</h1>
+  <p id="description"><b>Project Description: Modern Responsive Web Curriculum - Building an Immersive Survey Form</b><br><br> The central objective of this project is to simulate a real-world scenario, replicating the challenges and triumphs one might encounter within a professional Frontend Web Development role. By navigating through the intricacies of responsive design, candidates will grapple with the nuanced art of ensuring seamless functionality across a multitude of devices, irrespective of screen size or orientation. This project serves as a litmus test for adaptability, as candidates learn to imbue their creations with the flexibility demanded by the modern digital landscape.</p><br><br>
+  <form id="survey-form">
+    <label id="name-label" for="name">Full name:</label><br>
+    <input type="text" id="name" name="name" value="John Doe" placeholder="John Doe" required><br><br>
+    <label id="email-label" for="email">Email:</label><br>
+    <input type="email" id="email" name="email" value="johndoe@email.com" placeholder="johndoe@email.com" required><br><br>
+    <label id="number-label" for="number">Age:</label><br>
+    <input type="number" id="number" name="number" min="18" max="100" placeholder="18 to 100"><br><br>
+    <label>Describe your current role:</label><br>
+    <select id="dropdown" name="dropdown" form="survey-form">
+      <option value="Full time job">Full time job</option>
+      <option value="Full time student">Full time student</option>
+
+    </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <input type="radio" id="definitely" name="recom_friend" value="Definitely">
+<label for="definitely">Definitely</label><br>
+<input type="radio" id="maybe" name="recom_friend" value="Maybe">
+<label for="maybe">Maybe</label><br>
+<input type="radio" id="not_sure" name="recom_friend" value="Not sure">
+<label for="not_sure">Not sure</label><br><br>
+<p>What would you like to see improved? (Check all that apply)</p>
+<input type="checkbox" id="improve1" name="improve1" value="Wiki">
+ <label for="improve1"> Wiki</label><br>
+ <input type="checkbox" id="improve2" name="improve2" value="Forum">
+ <label for="improve2"> Forum</label><br>
+ <input type="checkbox" id="improve3" name="improve3" value="Additonal_Courses">
+ <label for="improve3"> Additional Courses</label><br><br>
+ <label for="comments">Any comments or suggestions?:</label>
+ <textarea id="comments" name="comments" rows="4" cols="50">At FreeCodeCamp.org you will learn how to build a website. They offer free tutorials in all web development technologies.</textarea><br><br>
+<input id="submit" type="submit" value="Submit">  
+
+  </form> 
 </body>
 </html>
