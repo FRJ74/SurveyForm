@@ -1,5 +1,6 @@
 body {
     background-image: url("Noc.png");
+    background-repeat: no-repeat;
     font: 16px Tahoma, sans-serif;
     background-color:#1b1b32;
     color: #f5f6f7;  
@@ -7,6 +8,12 @@ body {
     height: 100vh;
     margin: 0;
   }
+
+  div {
+    height: 200px;
+    width: 100%;
+    align-items:center;
+      }
   
   h1, p {
     margin: 1em auto;
