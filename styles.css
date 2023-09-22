@@ -1,0 +1,22 @@
+/* Main stylings */
+h1 {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+.intro {
+    width: 100%;
+    height: 150px;
+    background-color: #CCFFCC;
+    margin: 0 auto;
+}
+
+.form_body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    
+}
