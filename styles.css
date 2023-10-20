@@ -1,7 +1,7 @@
 /* Main stylings */
 body {
     background-color: MidnightBlue;
-    
+
 }
 
 h1 {
@@ -15,24 +15,27 @@ h1 {
 
 .intro {
     text-align: left;
-    padding: 30px;
+    padding: 0 50px 50px;
     width: 40%;
     height: 200px;
     margin: 0 auto;
-    background-color: lightskyblue;
+    background-color: dimgray;
     border-radius: 25px;
-    border: 5px solid dimgray;
+    border: 5px solid lightskyblue;
+    color: black;
+    font-weight: bold;
 }
     
     
 
 .form_body {
     text-align: left;
-    padding: 30px;
+    padding: 50px;
     background-color: lightskyblue;
     width: 40%;
     height: 600px;
     margin: 1% auto;
     border-radius: 25px;
-    border: 5px solid dimgray;    
+    border: 5px solid dimgray;
+    color: blue;    
 }
