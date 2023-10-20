@@ -15,16 +15,15 @@ h1 {
 
 .intro {
     text-align: left;
-    padding: 0 50px 50px;
+    padding: 0 50px 30px;
     width: 40%;
     height: 200px;
     margin: 0 auto;
-    background-color: dimgray;
+    background-color: lightskyblue;
     border-radius: 25px;
-    border: 5px solid lightskyblue;
-    color: black;
-    font-weight: bold;
-}
+    border: 5px solid aliceblue;
+    color: blue;
+    }
     
     
 
@@ -36,6 +35,6 @@ h1 {
     height: 600px;
     margin: 1% auto;
     border-radius: 25px;
-    border: 5px solid dimgray;
+    border: 5px solid aliceblue;
     color: blue;    
 }
