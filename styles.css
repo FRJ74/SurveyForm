@@ -1,13 +1,16 @@
 /* Main stylings */
 body {
-    background-color: cadetblue;
+    background-color: MidnightBlue;
 }
 
 h1 {
     text-align: center;
+    color: LightSkyBlue;
 }
 
 
+
+/* Styling opening statement */
 
 .intro {
     text-align: left;
@@ -15,9 +18,9 @@ h1 {
     width: 40%;
     height: 200px;
     margin: 0 auto;
-    background-color: #CCFFCC;
+    background-color: lightskyblue;
     border-radius: 25px;
-    border: 2px solid blue;
+    border: 5px solid dimgray;
 }
     
     
@@ -25,10 +28,10 @@ h1 {
 .form_body {
     text-align: left;
     padding: 30px;
-    background-color: aquamarine;
+    background-color: lightskyblue;
     width: 40%;
     height: 600px;
     margin: 1% auto;
     border-radius: 25px;
-    border: 2px solid blue;    
+    border: 5px solid dimgray;    
 }
